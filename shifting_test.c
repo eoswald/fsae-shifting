@@ -2,7 +2,7 @@
 
 #define DELAY 200
 
-void Port_Init(void);
+void Port_Init(void); //Port initializations
 
 void main() {
 	Port_Init();
