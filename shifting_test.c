@@ -8,9 +8,9 @@ void main() {
 	Port_Init();
 	while(1) {
 		OUTA |= 0x0004003E; //Blink outputs
-		wait(DELAY);
+		pause(DELAY);
 		OUTA &= ~0x0004003E;
-		wait(DELAY);
+		pause(DELAY);
 	}
 }
 
