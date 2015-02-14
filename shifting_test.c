@@ -30,7 +30,7 @@ int main() {
 			ShiftCheck( UP_SHIFT_PADDLE );
 			while (input(UP_SHIFT_PADDLE))
        {
-         ;
+         ;// this confuses me
        }
 			pause(30);
 			shifts++;
